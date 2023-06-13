@@ -1,0 +1,122 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Shantell;
+    scroll-behavior: smooth;
+    text-align: center;
+    color: #fff;
+    list-style-type: none
+
+}
+
+body{
+    font-size: 16px;
+    background-image: url("https://img.freepik.com/premium-vector/seamless-manicure-tools-pattern-nail-art-concept-with-polish-drill-flowers-nail-clipper_523479-452.jpg");
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+}
+
+.d-f{
+    display: flex;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.al-c{
+    align-items: center;
+}
+
+.navbar{
+    background-color: #eb74e9;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav-link{
+    font-size: 1.5625em;
+    color: #fff;
+}
+
+.hero-title{
+    padding: 40vh;
+}
+
+.title{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    border: 2px solid #d239d0;
+}
+
+.titulo{
+    font-size: 5em;
+}  
+
+.subtitulo{
+    font-size: 3em;
+}
+
+.about, .hero-works{
+    margin: 0 auto;
+    font-size: 1.8em;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    border: 2px solid #d239d0;
+    margin-top:2em;
+}
+
+.about > p{
+    font-size: 1.3em;
+    white-space: pre-line;
+}
+
+.about > hr{
+    margin: auto;
+    width: 50vw;
+    border: 5px solid #d239d0;
+}
+
+.title-about, .works-title{
+    font-size: 2em;
+}
+
+/* .hero-works{
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.4);
+} */
+
+.works-container> .row{
+    margin-bottom: 2em;
+}
+
+.works-title{
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.work-card{
+    width: 5em;
+    height: 5em;
+}
+
+.hero-contact{
+    background-color: #eb74e9;
+}
+.hero-contact > p{
+    font-size: 2.5em;
+}
+
+.contact-container > ul >li >a > i{
+    font-size: 2em;
+}
+
+.contact-container > ul >li {
+    margin:.5em 3em;
+}
